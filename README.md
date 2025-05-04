@@ -1,4 +1,4 @@
-# 🇵🇰 Pakistani Sweet Shop Hub
+# BABAR Pakistani Sweet Shop Hub
 
 This is a Streamlit web application designed for owners of Pakistani sweet shops to manage their inventory, complete with images of the delicious treats. It utilizes Object-Oriented Programming (OOP) principles for a structured and maintainable codebase.
 
@@ -31,9 +31,9 @@ This is a Streamlit web application designed for owners of Pakistani sweet shops
 
 ## OOP Principles Applied:
 
-* **Encapsulation:** The `Sweet` and `PakistaniSweet` classes encapsulate the data and behavior of each sweet item, including the image path.
+* **Encapsulation:** The `Sweet` and `BABARSweet` classes encapsulate the data and behavior of each sweet item, including the image path.
 * **Abstraction:** Users interact with simple actions without needing to know the underlying image handling.
-* **Inheritance:** `PakistaniSweet` inherits from the base `Sweet` class and adds specific handling for image paths relevant to Pakistani sweets.
+* **Inheritance:** `BABARSweet` inherits from the base `Sweet` class and adds specific handling for image paths relevant to BABAR sweets.
 * **Polymorphism:** The `display_details()` method is extended to include image display.
 
 ## Further Enhancements (Potential Future Features):
